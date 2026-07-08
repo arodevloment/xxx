@@ -1,0 +1,5 @@
+{
+  "buildCommand": "pnpm install && pnpm --filter @workspace/xxx-coin run build",
+  "outputDirectory": "artifacts/xxx-coin/dist/public",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
